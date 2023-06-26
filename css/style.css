@@ -40,19 +40,17 @@ section {
 
 #informacion h2,
 #destacados h2,
-#ultimas-noticias h2 {
+#campeones h2 {
     text-align: center;
 }
 
-.champion-card,
-.noticia {
+.champion-card {
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.champion-card img,
-.noticia img {
+.champion-card img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -65,3 +63,48 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+#runas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.runa-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.runa-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+#objetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.objeto-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.objeto-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
